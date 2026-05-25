@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 
 const links: { to: string; label: string; end?: boolean }[] = [
   { to: "/", label: "Home", end: true },
@@ -12,6 +12,13 @@ const links: { to: string; label: string; end?: boolean }[] = [
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+  // Logica pentru Dark Mode
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+    document.documentElement.classList.toggle("dark");
+  };
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
@@ -38,6 +45,18 @@ export function Navbar() {
               {l.label}
             </NavLink>
           ))}
+          <nav className="hidden gap-1 md:flex">
+      {/* ... (aici e codul tău existent cu links.map) ... */}
+      
+      {/* Butonul pentru Dark Mode adăugat aici: */}
+      <button
+        onClick={toggleDarkMode}
+        className="ml-4 p-2 rounded-full bg-gray-100 dark:bg-sidebar text-gray-700 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors shadow-sm"
+        title="Schimbă Tema"
+      >
+        {isDarkMode ? <Sun size={20} /> : <Moon size={20} />}
+      </button>
+    </nav>
         </nav>
 
         <button
