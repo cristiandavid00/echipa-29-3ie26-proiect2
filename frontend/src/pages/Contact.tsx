@@ -13,6 +13,7 @@ const Contact = () => {
         name="contact"
         method="POST"
         data-netlify="true"
+        action="/"
         className="bg-white shadow-lg rounded-xl p-8 space-y-6 border border-gray-100"
       >
         {/* Câmp ascuns OBLIGATORIU pentru Netlify Forms în aplicații React */}
