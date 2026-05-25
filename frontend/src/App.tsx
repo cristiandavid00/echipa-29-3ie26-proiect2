@@ -8,6 +8,7 @@ import CategoriesPage from "@/pages/CategoriesPage";
 import CategoryDetailPage from "@/pages/CategoryDetailPage";
 import AboutPage from "@/pages/AboutPage";
 import NotFoundPage from "@/pages/NotFoundPage";
+import Contact from './pages/Contact';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/categories/:slug" element={<CategoryDetailPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<NotFoundPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

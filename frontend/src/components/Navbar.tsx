@@ -7,6 +7,7 @@ const links: { to: string; label: string; end?: boolean }[] = [
   { to: "/articles", label: "Articles" },
   { to: "/categories", label: "Categories" },
   { to: "/about", label: "About" },
+  { to: "/contact", label: "Contact" }
 ];
 
 export function Navbar() {
