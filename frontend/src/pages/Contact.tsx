@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="container mx-auto px-4 py-12 max-w-2xl mt-16">
       <h1 className="text-4xl font-bold text-gray-800 mb-6">Contactează-ne</h1>
       <p className="text-lg text-gray-600 mb-8">
-        Completează formularul de mai jos și un membru al echipei noastre îți va răspunde în cel mai scurt timp.
+        Completează formularul de mai jos și îți voi răspunde în cel mai scurt timp.
       </p>
 
       {/* Formularul configurat special pentru Netlify */}

@@ -12,7 +12,7 @@ export function Footer() {
           {/* Logo Footer */}
           <div className="flex items-center gap-2 font-semibold tracking-tight">
             <span className="inline-block size-6 rounded-md bg-[image:var(--gradient-hero)]" />
-            <span className="text-lg dark:text-gray-200">Echipa 29</span>
+            <span className="text-lg dark:text-gray-200">Portofoliu David</span>
           </div>
           
           {/* Copyright Text */}

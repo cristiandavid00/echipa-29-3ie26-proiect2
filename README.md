@@ -1,21 +1,20 @@
-# Hub Digital - Echipa 29
+# Hub Digital - Portofoliu Web Development
 
-Acesta este Proiectul 2 la disciplina Web Development, reprezentând un site de prezentare personală/portofoliu dezvoltat cu tehnologii moderne (Headless CMS și React).
+Acesta este Proiectul 2 la disciplina Web Development, reprezentând un site de prezentare personală dezvoltat integral cu tehnologii moderne (Headless CMS și React).
+
+## 👨‍💻 Autor și Realizator
+**David Cristian** - Responsabil integral pentru dezvoltarea proiectului, acoperind următoarele roluri:
+* **Frontend Development:** Construirea interfețelor (Home, Articles, Categories, About, Contact) folosind React, Tailwind CSS și React Router DOM.
+* **Backend Architecture:** Configurarea colecțiilor în Strapi CMS (găzduit pe Strapi Cloud) și managementul rutelor API.
+* **UI/UX Design:** Personalizarea aspectului vizual (Light/Dark mode) folosind TweakCN și implementarea a 3 fonturi web distincte.
+* **DevOps & Hosting:** Gestionarea codului prin GitHub, conectarea cu Netlify pentru auto-deployment și implementarea Netlify Forms (formular funcțional fără bază de date).
 
 ## 🛠️ Tehnologii Utilizate
-* **Frontend:** React (Vite), Tailwind CSS, React Router DOM, Lucide React (pentru iconițe).
-* **Backend:** Strapi Headless CMS (găzduit pe Strapi Cloud).
-* **Hosting Frontend & Formulare:** Netlify (incluzând Netlify Forms pentru formularul de contact fără DB).
-* **Design & Temă:** Personalizat cu [TweakCN](https://tweakcn.com/).
-
-## 👥 Membrii Echipei și Responsabilități
-1. **David Cristian (Frontend Developer):** A construit interfața vizuală (paginile Home, Articles, Categories) în React & Tailwind.
-2. **Ionut Matei (Backend Architect):** A configurat și gestionat platforma Strapi CMS, arhitectura colecțiilor și a securizat rutele API.
-3. **Hotca Matias (UI/UX Designer):** Responsabil de estetica site-ului. A integrat tema TweakCN, a setat fonturile web și a implementat Dark Mode-ul (logica de Light/Dark).
-4. **Iosif Ionasi (Cloud & DevOps Engineer):** A gestionat lucrul colaborativ pe GitHub, a legat proiectul de Netlify și a creat structura pentru pagina de Contact și Netlify Forms.
+* **Frontend:** React (Vite), Tailwind CSS, Lucide React (iconițe).
+* **Backend:** Strapi Headless CMS.
+* **Hosting:** Netlify (Frontend) / Strapi Cloud (Backend).
 
 ## 📚 Bibliografie și Surse de Inspirație
-* Documentația oficială React și Tailwind CSS.
-* Documentația Strapi pentru conectarea REST API-ului.
-* Tema vizuală a fost preluată și ajustată folosind [TweakCN](https://tweakcn.com/editor/theme?theme=clean-slate).
-* Materiale din laboratoarele L02, L05, L06 de la facultate. Nu a fost folosit un șablon de-a gata, interfața a fost generată și personalizată prin instrumente AI și VS Code.
+* Documentația oficială React, Tailwind CSS și Strapi.
+* Tema vizuală a fost generată și adaptată folosind [TweakCN](https://tweakcn.com/).
+* Materiale și concepte studiate în cadrul laboratoarelor L02, L05, L06 de la facultate. Interfața a fost construită local în VS Code, utilizând instrumente AI pentru eficientizarea codului, fără a folosi șabloane predefinite.
