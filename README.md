@@ -1,61 +1,21 @@
-# 🚀 Getting started with Strapi
+# Hub Digital - Echipa 29
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Acesta este Proiectul 2 la disciplina Web Development, reprezentând un site de prezentare personală/portofoliu dezvoltat cu tehnologii moderne (Headless CMS și React).
 
-### `develop`
+## 🛠️ Tehnologii Utilizate
+* **Frontend:** React (Vite), Tailwind CSS, React Router DOM, Lucide React (pentru iconițe).
+* **Backend:** Strapi Headless CMS (găzduit pe Strapi Cloud).
+* **Hosting Frontend & Formulare:** Netlify (incluzând Netlify Forms pentru formularul de contact fără DB).
+* **Design & Temă:** Personalizat cu [TweakCN](https://tweakcn.com/).
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+## 👥 Membrii Echipei și Responsabilități
+1. **David Cristian (Frontend Developer):** A construit interfața vizuală (paginile Home, Articles, Categories) în React & Tailwind.
+2. **Ionut Matei (Backend Architect):** A configurat și gestionat platforma Strapi CMS, arhitectura colecțiilor și a securizat rutele API.
+3. **Hotca Matias (UI/UX Designer):** Responsabil de estetica site-ului. A integrat tema TweakCN, a setat fonturile web și a implementat Dark Mode-ul (logica de Light/Dark).
+4. **Iosif Ionasi (Cloud & DevOps Engineer):** A gestionat lucrul colaborativ pe GitHub, a legat proiectul de Netlify și a creat structura pentru pagina de Contact și Netlify Forms.
 
-```
-npm run develop
-# or
-yarn develop
-```
-
-### `start`
-
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
-
-```
-npm run start
-# or
-yarn start
-```
-
-### `build`
-
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
-
-## ⚙️ Deployment
-
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
-
-```
-yarn strapi deploy
-```
-
-## 📚 Learn more
-
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## 📚 Bibliografie și Surse de Inspirație
+* Documentația oficială React și Tailwind CSS.
+* Documentația Strapi pentru conectarea REST API-ului.
+* Tema vizuală a fost preluată și ajustată folosind [TweakCN](https://tweakcn.com/editor/theme?theme=clean-slate).
+* Materiale din laboratoarele L02, L05, L06 de la facultate. Nu a fost folosit un șablon de-a gata, interfața a fost generată și personalizată prin instrumente AI și VS Code.
