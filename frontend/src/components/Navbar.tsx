@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon, Search } from "lucide-react";
 
 const links: { to: string; label: string; end?: boolean }[] = [
   { to: "/", label: "Home", end: true },
@@ -25,7 +25,7 @@ export function Navbar() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link to="/" className="flex items-center gap-2 font-semibold tracking-tight">
           <span className="inline-block size-7 rounded-md bg-[image:var(--gradient-hero)]" />
-          <span className="text-lg">Strapi Blog</span>
+          <span className="text-lg">Hub Digital</span>
         </Link>
 
         <nav className="hidden gap-1 md:flex">
@@ -47,6 +47,15 @@ export function Navbar() {
           ))}
           <nav className="hidden gap-1 md:flex">
       {/* ... (aici e codul tău existent cu links.map) ... */}
+      {/* Bara de cautare */}
+      <div className="relative hidden md:block ml-4 mr-2">
+        <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-500 dark:text-gray-400" />
+        <input
+          type="text"
+          placeholder="Caută articole..."
+          className="h-9 w-60 rounded-md border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-sidebar pl-9 pr-4 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50 dark:text-gray-200 transition-colors"
+        />
+      </div>
       
       {/* Butonul pentru Dark Mode adăugat aici: */}
       <button
